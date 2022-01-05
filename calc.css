@@ -1,0 +1,114 @@
+.mainFlex{
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-height: 600px;
+    outline:solid black 2px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    justify-content: flex-end;
+    padding-bottom: 15px;
+
+}
+.mainRow{
+
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    border-radius: 50px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+.button:hover{
+    opacity: 85%;
+}
+
+.mainRowBig{
+
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.buttonBig{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    border-radius: 40px;
+    flex-grow: 0.55;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.buttonBig:hover{
+    opacity: 85%;
+}
+.answer{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+.greyColor{
+    background-color: lightgray;
+}
+.orangeColor{
+    background-color: darkorange;
+
+}
+.darkGreyColor{
+    background-color: dimgrey;
+}
+.font_color{
+    color: white;
+    font-size: larger;
+}
+div{
+    font-size: larger;
+}
+
+.mainFlex2{
+    margin-left:20px ;
+}
+.answer{
+    color: white;
+}
+.clicked{
+    opacity: 65%;
+}
+.memeToBe{
+    position: absolute;
+   height: auto;
+   width: fit-content;
+    outline:solid green 2px;
+    margin-top: 50px;
+    margin-left: 50px;
+    top: 0;
+    
+}
